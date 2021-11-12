@@ -1,0 +1,60 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+.navbar {
+  border-radius: 25px;
+}
+.nav {
+  // background-color: red;
+  align-items: center;
+  // line-height: 10px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto auto;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: black;
+  background: white;
+  //   box-shadow: ;
+  width: 90%;
+  text-align: center;
+  margin: auto auto;
+  height: 70px;
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto auto;
+  }
+  li {
+    list-style: none;
+    // margin-left: 3rem;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+  .signup {
+    background-color: rgb(84, 149, 164);
+    padding: 0 0.2rem;
+    border-radius: 25px;
+    color: white;
+    // margin: ;
+  }
+}
+.nav-link:hover {
+  color: rgb(84, 149, 164);
+  border-bottom: solid 2px rgb(84, 149, 164);
+}
+// .sect2 {
+//   display: flex;
+//   background-color: green;
+//   align-items: center;
+//   justify-content: space-between;
+//   // margin: auto auto;
+//   width: 100%;
+// }
